@@ -21,13 +21,7 @@ module.exports = {
       {
         test: /\.jsx?(.erb)?$/,
         exclude: /node_modules/,
-        loader: 'babel-loader',
-        options: {
-          presets: [
-            'react',
-            [ 'latest', { 'es2015': { 'modules': false } } ]
-          ]
-        }
+        loader: 'babel-loader'
       },
       {
         test: /.erb$/,
