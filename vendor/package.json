@@ -1,6 +1,10 @@
 {
+  "scripts": {
+    "test": "jest"
+  },
   "devDependencies": {
     "babel-core": "^6.23.1",
+    "babel-jest": "^18.0.0",
     "babel-loader": "^6.3.2",
     "babel-preset-latest": "^6.22.0",
     "babel-preset-react": "^6.23.0",
@@ -10,6 +14,7 @@
     "jest": "^18.1.0",
     "path-complete-extname": "^0.1.0",
     "rails-erb-loader": "^3.2.0",
+    "react-test-renderer": "^15.4.2",
     "webpack": "^2.2.1",
     "webpack-dev-server": "^2.3.0",
     "webpack-merge": "^2.6.1"
@@ -19,8 +24,13 @@
     "react-dom": "^15.4.2"
   },
   "jest": {
-    "moduleFileExtensions": ["js", "jsx"],
-    "moduleDirectories": ["node_modules"],
+    "moduleFileExtensions": [
+      "js",
+      "jsx"
+    ],
+    "moduleDirectories": [
+      "node_modules"
+    ],
     "moduleNameMapper": {
       "\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$": "<rootDir>/__mocks__/fileMock.js",
       "\\.(css|less)$": "<rootDir>/__mocks__/styleMock.js"
