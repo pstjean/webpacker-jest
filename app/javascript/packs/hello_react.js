@@ -4,10 +4,11 @@
 
 import React from 'react'
 import ReactDOM from 'react-dom'
+import Link from './Link.react'
 
 class Hello extends React.Component {
   render() {
-    return <div>Hello {this.props.name}!</div>
+    return <div>Hello {this.props.name}! Click <Link page="http://mpr.org">here</Link></div>
   }
 }
 
