@@ -1,4 +1,4 @@
- # Webpacker + Jest
+# Webpacker + Jest
 
  1. Rails. I generated a new Rails app, skipping all of the things that I'm not likely to need.
 
