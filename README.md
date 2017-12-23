@@ -1,5 +1,10 @@
 # Webpacker + Jest
 
+### NOTE:
+The process I went through to answer this question is no longer necessary, as the Rails team has [moved JavaScript dependencies back into the root](https://github.com/rails/rails/pull/28093) of the project by default. This was originally created as supporting material for [this StackOverflow answer](https://stackoverflow.com/questions/42164582/react-testing-setup-with-rails-webpacker/42289632#42289632).
+
+---
+
  1. Rails. I generated a new Rails app, skipping all of the things that I'm not likely to need.
 
         rails new rails-react --skip-action-mailer --skip-active-record --skip-action-cable --skip-javascript --skip-turbolinks
